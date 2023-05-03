@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+:root {
+  --primary-font: "Quicksand", san-serif;
+
+  --primary-color: black;
+  --secondary-color: #7e16f5;
+  --contrast-color: rgb(255, 255, 255);
+  --caution-color: #b71c1c;
+  --placeholder-color: #889099;
+  --arrow-color: #cfd3d6;
+  --p-color: #6d737a;
+  --secondary-background: #ffffff;
+  --green-background: #ffffff;
+
+  --header1-fs: 44px;
+  --header2-fs: 32px;
+  --header3-fs: 18px;
+  --paragraph1-fs: 16px;
+  --paragraph2-fs: 14px;
+  --label-fs: 16px;
+  --button1-fs: 20px;
+  --button2-fs: 16px;
+  --button3-fs: 14px;
+  --button4-fs: 12px;
+  --icon-fs: 16px;
+  --searchbox-fs: 14px;
+
+  --navbar-height: 78px;
+}
+
+$primary-font: var(--primary-font);
